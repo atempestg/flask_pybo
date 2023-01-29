@@ -7,7 +7,7 @@ from ..forms import QuestionForm, AnswerForm
 
 
 from pybo.models import Question
-from pybo.views.auth_view import login_required
+from pybo.views.auth_views import login_required
 
 bp = Blueprint('question',__name__, url_prefix='/question')
 per_page = 15

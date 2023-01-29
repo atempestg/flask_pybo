@@ -4,7 +4,7 @@ from werkzeug.utils import redirect
 from .. import db
 from ..forms import AnswerForm
 from ..models import Question, Answer
-from .auth_view import login_required
+from .auth_views import login_required
 
 bp = Blueprint('answer',__name__, url_prefix='/answer')
 
