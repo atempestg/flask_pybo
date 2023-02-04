@@ -1,8 +1,5 @@
-import os
-
-BASE_DIR = os.path.dirname(__file__)
+from config.default import *
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///{}'.format(os.path.join(BASE_DIR, 'pybo.db'))
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-SECRET_KEY="dev"
-PAGE_LIST_COUNT = 10
+SECRET_KEY = "b'n4\x0c\x137{GHR\xed\x9b\xedk\x18\x9f\x08'"
